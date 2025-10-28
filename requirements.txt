@@ -1,0 +1,15 @@
+wbdata
+pandas
+numpy
+sqlalchemy
+pyodbc
+pyarrow
+scikit-learn
+xgboost
+matplotlib
+seaborn
+tensorflow
+joblib
+statsmodels
+keras
+tqdm
