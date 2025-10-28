@@ -103,18 +103,18 @@ Script: `train_lstm_gdp.py`
 ## Project Structure
 
 ├── data/
-│ ├── raw/ # Raw scraped World Bank data
-│ ├── processed/ # Cleaned datasets
-│ ├── train_data.parquet
-│ ├── test_data.parquet
+│   ├── raw/                  # Raw scraped World Bank data
+│   ├── processed/            # Cleaned datasets
+│   ├── train_data.parquet
+│   ├── test_data.parquet
 │
 ├── models/
-│ ├── xgboost_gdp_model.joblib
-│ ├── lstm_gdp_model.keras
-│ ├── scalers.joblib
+│   ├── xgboost_gdp_model.joblib
+│   ├── lstm_gdp_model.keras
+│   ├── scalers.joblib
 │
 ├── notebooks/
-│ └── eda_feature_analysis.ipynb
+│   └── eda_feature_analysis.ipynb
 │
 ├── scrape_world_bank.py
 ├── preprocess_data.py
