@@ -100,31 +100,6 @@ Script: `train_lstm_gdp.py`
 
 ---
 
-## Project Structure
-
-├── data/
-│   ├── raw/                  # Raw scraped World Bank data
-│   ├── processed/            # Cleaned datasets
-│   ├── train_data.parquet
-│   ├── test_data.parquet
-│
-├── models/
-│   ├── xgboost_gdp_model.joblib
-│   ├── lstm_gdp_model.keras
-│   ├── scalers.joblib
-│
-├── notebooks/
-│   └── eda_feature_analysis.ipynb
-│
-├── scrape_world_bank.py
-├── preprocess_data.py
-├── train_test_split_forecasting.py
-├── baseline_arima.py
-├── train_xgboost_gdp.py
-├── train_lstm_gdp.py
-├── requirements.txt
-└── README.md
-
 ## Setup Instructions
 
 ### 1️ Clone the repository
